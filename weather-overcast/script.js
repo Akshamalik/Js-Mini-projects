@@ -5,9 +5,10 @@ document.addEventListener("DOMContentLoaded",()=>{
     const cityNameDisplay=document.getElementById("city-name")
     const temperatureDisplay=document.getElementById("temperature")
     const descriptionDisplay=document.getElementById("description")
+    //used from openweatherapi
     const API_KEY="26e8438946487f23029815461cb2ce5e" //env variable
     const errorMessage=document.getElementById("error-message")
-
+    
     getWeatherBtn.addEventListener('click',async ()=>{
         const city=cityInput.value.trim()
         if(!city) return ""
