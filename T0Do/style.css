@@ -1,0 +1,27 @@
+.container{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+h1{
+    font: bold;
+}
+#todo-input{
+    padding: 0.5rem;
+}
+#add-task-btn{
+    padding: 0.5rem;
+    font: 400;
+}
+ul{
+
+}
+li{
+    list-style-type: none;
+    font: 400;
+}
